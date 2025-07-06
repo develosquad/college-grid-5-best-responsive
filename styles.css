@@ -281,7 +281,92 @@ img {
 
 
 
+/* Tablet Layout: 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .collage {
+    width: 100%;
+    height: 130vh;
+    position: relative;
+  }
 
+  .img {
+    position: absolute;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .img1 {
+    top: 28vh;
+    left: 6vw;
+    width: 26vw;
+    height: 25vh;
+  }
+
+  .img2 {
+    top: 6vh;
+    left: 5vw;
+    width: 24vw;
+    height: 24vh;
+    border-radius: 40% 40% 0 0 !important;
+  }
+
+  .img3 {
+    top: 6vh;
+    left: 32vw;
+    width: 26vw;
+    height: 17vh;
+    filter: grayscale(1);
+  }
+
+  .img4 {
+    top: 6vh;
+    left: 63vw;
+    width: 28vw;
+    height: 22vh;
+  }
+
+  .img5 {
+    top: 75vh;
+    left: 5vw;
+    width: 38vw;
+    height: 22vh;
+  }
+
+  .img6 {
+    top: 87vh;
+    left: 45vw;
+    width: 30vw;
+    height: 24vh;
+  }
+
+  .img7 {
+    top: 70vh;
+    left: 70vw;
+    width: 24vw;
+    height: 23vh;
+  }
+
+  .img8 {
+    top: 32vh;
+    left: 65vw;
+    width: 30vw;
+    height: 24vh;
+  }
+
+  .center-text {
+    position: absolute;
+    top: 58vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: #38607a;
+    line-height: 1.2;
+    z-index: 2;
+  }
+}
 
 
 
